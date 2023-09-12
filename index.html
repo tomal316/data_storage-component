@@ -4,10 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stle.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ralewaylight&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="left">
+      <div class="logo">
+        <img class="logo" src="./images/logo.svg" alt="Fylo Logo"/>
+      </div>
+      <div class="components">
+        <div class="documents"><img src="./images/icon-document.svg" alt="documents"></div>
+        <div class="folder"><img src="./images/icon-folder.svg" alt="folder"></div>
+        <div class="upload"><img src="./images/icon-upload.svg" alt="upload"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="amount-left">
+        <p><span>185</span> GB LEFT</p>
+      </div>
+      <div class="used">
+        <p>You've used <span>815 GB</span> of your storage</p>
+        <progress color="red" value = "815" max = "1000" > </progress>
+      </div>
+      <div class="total-amount">
+        <p>0 GB</p>
+        <p>1000 GB</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
